@@ -3,6 +3,7 @@ class BasePage {
         this.page = page;
     }
     //changes in the local
+    //Tester2 changes
     async navigate(url) {
         await this.page.goto(url, {
             timeout: 60000,
