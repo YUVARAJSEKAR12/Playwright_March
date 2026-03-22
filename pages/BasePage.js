@@ -2,7 +2,7 @@ class BasePage {
     constructor(page) {
         this.page = page;
     }
-
+    //changes in the local
     async navigate(url) {
         await this.page.goto(url, {
             timeout: 60000,
