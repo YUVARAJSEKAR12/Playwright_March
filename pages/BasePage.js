@@ -5,6 +5,7 @@ class BasePage {
     //changes in the local
     //Tester2 changes
     //Tester3 changes
+    //Tester4 changes
     async navigate(url) {
         await this.page.goto(url, {
             timeout: 60000,
