@@ -22,7 +22,13 @@ class BasePage {
     async getText(locator) {
         return await this.page.textContent(locator);
     }
+
     async getText2(locator) {
+        return await this.page.textContent(locator);
+    }
+
+    async getText1(locator) {
+
         return await this.page.textContent(locator);
     }
 }
